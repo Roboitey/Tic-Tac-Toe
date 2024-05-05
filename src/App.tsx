@@ -1,9 +1,12 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import TicTacToe from './components/TicTacToe';
 
 function App() {
-  return 
+  return ( 
+        <>
+          <TicTacToe/>
+        </>
+  )
 }
 
-export default App
+export default App;
