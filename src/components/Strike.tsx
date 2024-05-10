@@ -1,9 +1,6 @@
-function Strike() {
-    return (  
-        <div className="strike strike-row-1">
-        
-        </div>
-    );
-}
-
-export default Strike;
+function Strike({ strikeClass }) {
+    return <div className={`strike ${strikeClass}`}></div>;
+  }
+  
+  export default Strike;
+  
